@@ -65,3 +65,12 @@ input {
   background-color: black;
   color: white;
 }
+.error {
+  border: 2px solid red; /* 设置红色边框 */
+}
+.disabled {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
