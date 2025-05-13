@@ -1,0 +1,43 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "email": "johndoe@example.com"
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "email": "janesmith@example.com"
+      }
+    ],
+    "buyerCartVideos": [
+      {
+        "auditStatus": "SUCCESS",
+        "coverImage": "https://pp.vjshi.com/p/2024-08-10/83b2538c022b4907ac70da1657e2fcc0/main.jpg",
+        "price": 99,
+        "softwareType": "视频素材",
+        "title": "商业宣传视频模板",
+        "licType": "NP",
+        "vid": 1001
+      },
+      {
+        "auditStatus": "SUCCESS",
+        "coverImage": "https://pp.vjshi.com/p/2024-08-10/83b2538c022b4907ac70da1657e2fcc0/main.jpg",
+        "price": 199,
+        "softwareType": "AE模板",
+        "title": "婚礼动画模板",
+        "licType": "LP",
+        "vid": 1002
+      },
+      {
+        "auditStatus": "FAIL",
+        "coverImage": "https://pp.vjshi.com/p/2024-08-10/83b2538c022b4907ac70da1657e2fcc0/main.jpg",
+        "price": 149,
+        "softwareType": "C4D模版",
+        "title": "3D场景动画",
+        "licType": "LPPLUS",
+        "vid": 1003
+      }
+    ]
+  }
