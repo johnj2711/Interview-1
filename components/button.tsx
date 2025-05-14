@@ -1,13 +1,12 @@
 "use client";
-import { useMemo, useState } from "react";
+import { useMemo, useState, memo } from "react";
 
 // 客户端组件
-function ClientButton({ handleClick }: { handleClick?: () => void }) {
-  const [cartCount, setCartCount] = useState(9999);
+const ClientButton = memo(function ClientButton({ handleClick, totalLength }: { handleClick?: () => void, totalLength: number }) {
   const cartCountMemo = useMemo(() => {
-    if (cartCount > 999) return 999;
-    return cartCount;
-  }, [cartCount]);
+    if (totalLength > 999) return 999;
+    return totalLength;
+  }, [totalLength]);
   
   return (
     <button 
@@ -30,12 +29,6 @@ function ClientButton({ handleClick }: { handleClick?: () => void }) {
       </div>
     </button>
   );
-}
+});
 
-// 服务端兼容版本
-function Button({ handleClick }: { handleClick?: () => void }) {
-  "use client";
-  return <ClientButton handleClick={handleClick} />;
-}
-
-export default Button;
+export default ClientButton;

@@ -1,43 +1,233 @@
 {
-    "users": [
-      {
-        "id": 1,
-        "name": "John Doe",
-        "email": "johndoe@example.com"
-      },
-      {
-        "id": 2,
-        "name": "Jane Smith",
-        "email": "janesmith@example.com"
-      }
-    ],
-    "buyerCartVideos": [
-      {
-        "auditStatus": "SUCCESS",
-        "coverImage": "https://pp.vjshi.com/p/2024-08-10/83b2538c022b4907ac70da1657e2fcc0/main.jpg",
-        "price": 99,
-        "softwareType": "视频素材",
-        "title": "商业宣传视频模板",
-        "licType": "NP",
-        "vid": 1001
-      },
-      {
-        "auditStatus": "SUCCESS",
-        "coverImage": "https://pp.vjshi.com/p/2024-08-10/83b2538c022b4907ac70da1657e2fcc0/main.jpg",
-        "price": 199,
-        "softwareType": "AE模板",
-        "title": "婚礼动画模板",
-        "licType": "LP",
-        "vid": 1002
-      },
-      {
-        "auditStatus": "FAIL",
-        "coverImage": "https://pp.vjshi.com/p/2024-08-10/83b2538c022b4907ac70da1657e2fcc0/main.jpg",
-        "price": 149,
-        "softwareType": "C4D模版",
-        "title": "3D场景动画",
-        "licType": "LPPLUS",
-        "vid": 1003
-      }
-    ]
-  }
+  "buyerCartVideos": [
+    {
+      "auditStatus": "SUCCESS",
+      "coverImage": "/main-1.webp",
+      "price": 129,
+      "softwareType": "视频模板",
+      "title": "企业形象宣传片-测试这是一个很长的字符串12335553222",
+      "licType": "LP",
+      "vid": 1001
+    },
+    {
+      "auditStatus": "SUCCESS",
+      "coverImage": "/main-2.webp",
+      "price": 249,
+      "softwareType": "PR模板",
+      "title": "时尚开场动画",
+      "licType": "NP",
+      "vid": 1002
+    },
+    {
+      "auditStatus": "SUCCESS",
+      "coverImage": "/main-3.webp",
+      "price": 179,
+      "softwareType": "短视频素材",
+      "title": "创意转场特效",
+      "licType": "NP",
+      "vid": 1003
+    },
+    {
+      "auditStatus": "SUCCESS",
+      "coverImage": "/main-1.webp",
+      "price": 199,
+      "softwareType": "AE模板",
+      "title": "3D立体文字动画",
+      "licType": "LP",
+      "vid": 1004
+    },
+    {
+      "auditStatus": "SUCCESS",
+      "coverImage": "/main-2.webp",
+      "price": 159,
+      "softwareType": "视频模板",
+      "title": "商业产品展示",
+      "licType": "LPPLUS",
+      "vid": 1005
+    },
+    {
+      "auditStatus": "SUCCESS",
+      "coverImage": "/main-3.webp",
+      "price": 299,
+      "softwareType": "PR模板",
+      "title": "婚礼相册集锦",
+      "licType": "NP",
+      "vid": 1006
+    },
+    {
+      "auditStatus": "SUCCESS",
+      "coverImage": "/main-1.webp",
+      "price": 219,
+      "softwareType": "短视频素材",
+      "title": "社交媒体包装元素",
+      "licType": "LP",
+      "vid": 1007
+    },
+    {
+      "auditStatus": "FAIL",
+      "coverImage": "/main-2.webp",
+      "price": 149,
+      "softwareType": "视频模板",
+      "title": "动感节奏片头",
+      "licType": "LPPLUS",
+      "vid": 1008
+    },
+    {
+      "auditStatus": "SUCCESS",
+      "coverImage": "/main-3.webp",
+      "price": 259,
+      "softwareType": "AE模板",
+      "title": "科技感数据展示",
+      "licType": "NP",
+      "vid": 1009
+    },
+    {
+      "auditStatus": "SUCCESS",
+      "coverImage": "/main-1.webp",
+      "price": 189,
+      "softwareType": "PR模板",
+      "title": "旅行vlog模板",
+      "licType": "LP",
+      "vid": 1010
+    },
+    {
+      "auditStatus": "SUCCESS",
+      "coverImage": "/main-2.webp",
+      "price": 229,
+      "softwareType": "短视频素材",
+      "title": "电影预告片效果",
+      "licType": "LPPLUS",
+      "vid": 1011
+    },
+    {
+      "auditStatus": "SUCCESS",
+      "coverImage": "/main-3.webp",
+      "price": 169,
+      "softwareType": "视频模板",
+      "title": "餐饮美食展示",
+      "licType": "NP",
+      "vid": 1012
+    },
+    {
+      "auditStatus": "SUCCESS",
+      "coverImage": "/main-1.webp",
+      "price": 279,
+      "softwareType": "AE模板",
+      "title": "粒子文字特效",
+      "licType": "LP",
+      "vid": 1013
+    },
+    {
+      "auditStatus": "FAIL",
+      "coverImage": "/main-2.webp",
+      "price": 139,
+      "softwareType": "PR模板",
+      "title": "体育赛事片头",
+      "licType": "LPPLUS",
+      "vid": 1014
+    },
+    {
+      "auditStatus": "SUCCESS",
+      "coverImage": "/main-3.webp",
+      "price": 209,
+      "softwareType": "短视频素材",
+      "title": "时间线图表动画",
+      "licType": "NP",
+      "vid": 1015
+    },
+    {
+      "auditStatus": "SUCCESS",
+      "coverImage": "/main-1.webp",
+      "price": 239,
+      "softwareType": "视频模板",
+      "title": "年会庆典开场",
+      "licType": "LP",
+      "vid": 1016
+    }
+  ],
+  "buyerCartFonts": [
+    {
+      "auditStatus": "SUCCESS",
+      "coverImage": "/main-2.webp",
+      "price": 59,
+      "softwareType": "字体素材",
+      "title": "现代简约字体包",
+      "licType": "LP",
+      "fid": 2045
+    },
+    {
+      "auditStatus": "SUCCESS",
+      "coverImage": "/main-3.webp",
+      "price": 159,
+      "softwareType": "PS字体",
+      "title": "复古艺术字体",
+      "licType": "LPPLUS",
+      "fid": 2178
+    },
+    {
+      "auditStatus": "FAIL",
+      "coverImage": "/main-1.webp",
+      "price": 89,
+      "softwareType": "手写字体",
+      "title": "创意手写风格字体",
+      "licType": "NP",
+      "fid": 2356
+    }
+  ],
+  "buyerCartMusic": [
+    {
+      "auditStatus": "SUCCESS",
+      "coverImage": "/main-3.webp",
+      "price": 79,
+      "title": "轻松愉快背景音乐",
+      "licType": "LPPLUS",
+      "mid": 3089
+    },
+    {
+      "auditStatus": "SUCCESS",
+      "coverImage": "/main-1.webp",
+      "price": 119,
+      "title": "史诗震撼配乐",
+      "licType": "NP",
+      "mid": 3142
+    },
+    {
+      "auditStatus": "SUCCESS",
+      "coverImage": "/main-2.webp",
+      "price": 169,
+      "title": "浪漫婚礼音乐",
+      "licType": "LP",
+      "mid": 3267
+    }
+  ],
+  "downloadVideos": [
+    {
+      "vid": 1001,
+      "licType": "LPPLUS"
+    },
+    {
+      "vid": 1002,
+      "licType": "LPPLUS"
+    },
+    {
+      "vid": 1003,
+      "licType": "NP"
+    },
+    {
+      "vid": 1004,
+      "licType": "LP"
+    }
+  ],
+  "downloadFonts": [
+    {
+      "fid": 2045,
+      "licType": "LP"
+    }
+  ],
+  "downloadMusic": [
+    {
+      "mid": 3089,
+      "licType": "LPPLUS"
+    }
+  ]
+}

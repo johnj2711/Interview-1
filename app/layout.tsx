@@ -13,7 +13,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <div className="w-full h-full flex items-center justify-center">
+        <div className="w-auto h-auto overflow-auto">
           {children}
         </div>
       </body>

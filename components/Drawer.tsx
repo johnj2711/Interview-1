@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useRef, ReactNode } from "react";
+import { useEffect, useRef, ReactNode, memo } from "react";
 interface DrawerProps {
   isOpen: boolean;
   onClose: () => void;
@@ -9,7 +9,7 @@ interface DrawerProps {
 }
 
 // 客户端Drawer组件
-function ClientDrawer({ isOpen, onClose, children, title = "购物车", width = "514px" }: DrawerProps) {
+const ClientDrawer = memo(function ClientDrawer({ isOpen, onClose, children, title = "购物车", width = "514px" }: DrawerProps) {
   const drawerRef = useRef<HTMLDivElement>(null);
 
   // 点击抽屉外部关闭
@@ -61,12 +61,12 @@ function ClientDrawer({ isOpen, onClose, children, title = "购物车", width = 
       {/* 抽屉 */}
       <div
         ref={drawerRef}
-        className={`fixed top-0 right-0 h-full bg-white shadow-lg z-50 transition-transform duration-300 ease-in-out py-8 ${
+        className={`fixed top-0 right-0 box-border bg-white shadow-lg z-50 transition-transform duration-300 ease-in-out ${
           isOpen ? "translate-x-0" : "translate-x-full"
-        }`}
+        } flex flex-col justify-between h-full`}
         style={{ width }}
       >
-        <header className="px-10 w-full font-medium text-black text-3xl flex-shrink-0 lg:text-xl flex justify-between items-center text-left mb-4">
+        <header className="px-10 w-full font-medium text-black text-3xl flex-shrink-0 lg:text-xl flex justify-between items-center text-left mb-4 mt-8">
           <span className="text-2xl font-bold">{title}</span>
           {/* 关闭按钮 */}
           <button onClick={onClose} className="rounded-full hover:bg-gray-100" aria-label="关闭抽屉">
@@ -87,16 +87,10 @@ function ClientDrawer({ isOpen, onClose, children, title = "购物车", width = 
         </header>
 
         {/* 内容 */}
-        <div className="h-full overflow-y-auto">{children}</div>
+        <div className="flex-1 overflow-y-auto flex flex-col">{children}</div>
       </div>
     </>
   );
-}
+});
 
-// 服务端兼容版本
-function Drawer(props: DrawerProps) {
-  "use client";
-  return <ClientDrawer {...props} />;
-}
-
-export default Drawer;
+export default ClientDrawer;
